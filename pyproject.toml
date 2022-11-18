@@ -2,14 +2,13 @@
 name = "basic-transformer"
 version = "0.1.0"
 description = ""
-authors = ["futuran <takuya.kudryavka@gmail.com>"]
+authors = ["src"]
 readme = "README.md"
 packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 torch = {path = "/mnt/work/envs/torch-1.12.1+cu113-cp310-cp310-linux_x86_64.whl"}
-hydra-core = "^1.2.0"
 numpy = "^1.23.3"
 transformers = "^4.22.2"
 datasets = "^2.5.1"
@@ -22,6 +21,7 @@ flake8 = "^5.0.4"
 autopep8 = "^1.7.0"
 torchtext = "^0.13.1"
 wandb = "^0.13.4"
+hydra-core = "^1.2.0"
 
 [build-system]
 requires = ["poetry-core"]
